@@ -9,6 +9,9 @@ public class Figure {
         return 3.1415*radius*radius;
     }
 
+    public double perimeter_rectangle (double len, double wid){
+        return (2*len+2*wid);
+    }
     public static void main(String[] args) {
 
     }
