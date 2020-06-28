@@ -5,6 +5,9 @@ public class Figure {
             ret = 2*3.1415*radius;
         return ret;
     }
+    public double square_circle(double radius){
+        return 3.1415*radius*radius;
+    }
 
     public static void main(String[] args) {
 
